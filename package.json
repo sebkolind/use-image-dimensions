@@ -1,0 +1,30 @@
+{
+  "name": "@sebkolind/use-image-dimensions",
+  "version": "1.0.0",
+  "description": "A React Hook that loads image dimensions from a url",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "esbuild --bundle src/index.ts --outfile=dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebkolind/use-image-dimensions.git"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "hook"
+  ],
+  "author": "Sebastian L. K. Sorensen <sks1993@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebkolind/use-image-dimensions/issues"
+  },
+  "homepage": "https://github.com/sebkolind/use-image-dimensions#readme",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21"
+  }
+}
