@@ -4,7 +4,8 @@
   "description": "A React Hook that loads image dimensions from a url",
   "main": "src/index.ts",
   "scripts": {
-    "build": "esbuild --bundle src/index.ts --outfile=dist/index.js"
+    "build": "esbuild --bundle src/index.ts --outfile=dist/index.js",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.21"
+    "@types/react": "^18.0.21",
+    "standard-version": "^9.5.0"
   }
 }
